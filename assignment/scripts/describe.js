@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We delcare a variable name called 'Dane'
+// We then check to see if the variable name is equal to 'Mary'
+// Since it is not equal to 'Mary' we console log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare two variables one being secret with no value and the other being code valued at 123
+// We then check if code is equal to 123 which it is so secret now has a value of 'super' 
+// Code is now multiplied by 2 making it equal to 246 which is not greater than 250 so the secret value does not change
+// We console log the value of secret which is 'super'
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare three variables isStudent valued at true, age valued at 34, and zip valued at 55407
+// We check to see if isStudent is true and zip is greater than 80000 which it is not so we move on
+// We then check to see if isStudent is false which it is not
+// After that we check if only isStudent is equal to true which it is so we console log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -134,6 +134,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - colorOne should be blue and colorTwo should be red according to the description
+// colorTwo should also be set to 'purple' under the if statement like: colorTwo = 'purple'
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +150,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - the if statement currently has an OR operator and it needs to be an AND operator which is: && is swapped for ||
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +164,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - Swap the 'no entry' string for the 'enter' string as age is greater than or equal to minAge
 
 if(minAge <= age) {
   console.log('no entry');
